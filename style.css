@@ -1,0 +1,49 @@
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.Cbuttom {
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 3px;
+   transition-duration: 04.s;
+   cursor: pointer;
+
+}
+
+.Cbuttom1 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(243, 37, 37, 0.862);
+}
+
+.Cbuttom1:hover {
+    background-color: rgba(243, 37, 37, 0.862);
+    color: white;
+}
+
+.Cbuttom2 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(244, 150, 166);
+}
+
+.Cbuttom2:hover {
+    background-color: rgb(244, 150, 166);
+    color: white;
+}
+
+.title {
+    color: black;
+    opacity: 0.8;
+}
